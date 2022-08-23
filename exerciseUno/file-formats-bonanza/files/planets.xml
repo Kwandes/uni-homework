@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <name>Earth</name>
+    <radius>6371</radius>
+    <habitable>true</habitable>
+    <satelites>
+      <name>Moon</name>
+      <radius>1737</radius>
+      <habitable>false</habitable>
+    </satelites>
+  </row>
+  <row>
+    <name>Mars</name>
+    <size>3389</size>
+    <habitable>false</habitable>
+    <satelites>
+      <name>Phobos</name>
+      <radius>11</radius>
+      <habitable>false</habitable>
+    </satelites>
+    <satelites>
+      <name>Deimos</name>
+      <radius>6</radius>
+      <habitable>false</habitable>
+    </satelites>
+  </row>
+</root>

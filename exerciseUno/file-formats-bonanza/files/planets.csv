@@ -1,0 +1,3 @@
+name;radius;habitable;satelites;size
+Earth;6371;True;"Moon";
+Mars;;False;"Phobos, Deimos";3389
