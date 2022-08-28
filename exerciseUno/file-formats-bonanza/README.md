@@ -1,11 +1,47 @@
-Create new files in at least these formats:
+# File Formats BONANZA!
 
-- text
-- xml
-- yaml
-- json
-- csv
+Parse files of different data types into something the app can understand.
 
-You decide the content.
+I have gone with the following file types:
 
-Create scripts that can read and parse the files in 2 programming languages of your choice.
+- JSON
+- YAML
+- XML
+- CSV
+- TEXT
+
+Parsed them in the following languages:
+
+- Javascript with Node - all file types
+- Golang - only JSON and YAML. XML was attempted but failed
+
+## Running the projects
+
+### Node
+
+#### Requirements:
+
+- Node 16 or newer
+- NPM
+
+Installation:
+
+`cd node-js && npm install`
+
+Running the program:
+
+`cd node-js && node index.js`
+
+### Golang
+
+#### Requirements:
+
+- Go
+
+Installation:
+
+`cd go && go mod tidy`
+
+Running the program:
+
+`cd go && go run .`
