@@ -10,6 +10,8 @@ I have gone with the following file types:
 - CSV
 - TEXT
 
+The files are located in the [files](./files) directory
+
 Parsed them in the following languages:
 
 - Javascript with Node - all file types
