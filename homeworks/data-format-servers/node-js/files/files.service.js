@@ -42,6 +42,6 @@ export class FilesService {
   getTxt() {
     // Would require custom parser to get the nested array of objects
     const rawdata = fs.readFileSync("./files/constants/planets.txt");
-    return rawdata.toJSON("utf8").type; // doesn't work with tpye:module for some great amazing reason...
+    return rawdata.toString("utf8"); // doesn't work with tpye:module for some great amazing reason...
   }
 }
