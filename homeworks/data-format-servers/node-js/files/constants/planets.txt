@@ -1,0 +1,17 @@
+name Earth
+radius 6371
+habitable true
+satelites
+name Moon
+radius 1737
+habitable false
+name Mars
+size 3389
+habitable false
+satelites
+name Phobos
+radius 11
+habitable false
+name Deimos
+radius 6
+habitable false
