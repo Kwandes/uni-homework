@@ -14,6 +14,11 @@ Once you enter the node directory with `cd node-js`, install the dependencies wi
 
 Once that is done, you can run the api on [localhost:3001](http://localhost:3001) with `npm start` (live-reload via nodemon) or `node index.js`
 
+#### Node API endpoints
+
+- [localhost:3001/healthcheck](http://localhost:3001/healthcheck)
+- [localhost:3001/timestamp](http://localhost:3001/timestamp)
+
 ### Python
 
 **Requirements:**
@@ -24,3 +29,8 @@ Once that is done, you can run the api on [localhost:3001](http://localhost:3001
 Once you enter the node directory with `cd python`, install the dependencies with `poetry install` (pip might work but I didn't care enough to test for it).
 
 Once that is done, enter the peotry shell with `poetry shell`, and run the api on [localhost:3001](http://localhost:3001) with `python main.py` (`python3 main.py` on mac) or `uvicorn main:app --port 3000 --reload`.
+
+#### Python API endpoints
+
+- [localhost:3000/healthcheck](http://localhost:3000/healthcheck)
+- [localhost:3000/timestamp](http://localhost:3000/timestamp)
