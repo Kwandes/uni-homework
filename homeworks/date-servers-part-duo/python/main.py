@@ -8,7 +8,10 @@ from fastapi import FastAPI
 # Run with poetry shell && uvicorn main:app --port 3000 --reload
 
 serverPort = 3000  # no used when running via uvicorn
-app = FastAPI()
+app = FastAPI(
+    title="Date Server",
+    version="0.0.0.0.0.0.0.0.1",
+)
 
 
 @app.get("/healthcheck")

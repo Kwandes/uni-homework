@@ -18,7 +18,8 @@ Once that is done, you can run the api on [localhost:3001](http://localhost:3001
 
 - [localhost:3001/healthcheck](http://localhost:3001/healthcheck)
 - [localhost:3001/timestamp](http://localhost:3001/timestamp)
-- [localhost:3001/ntp](http://localhost:3001/timestamp)
+- [localhost:3001/ntp](http://localhost:3001/ntp)
+- [localhost:3001/docs](http://localhost:3001/docs) - SwaggerUi documentation
 
 ### Python
 
@@ -35,4 +36,5 @@ Once that is done, enter the peotry shell with `poetry shell`, and run the api o
 
 - [localhost:3000/healthcheck](http://localhost:3000/healthcheck)
 - [localhost:3000/timestamp](http://localhost:3000/timestamp)
-- [localhost:3000/ntp](http://localhost:3000/timestamp)
+- [localhost:3000/ntp](http://localhost:3000/ntp)
+- [localhost:3000/docs](http://localhost:3000/docs) - SwaggerUi documentation
