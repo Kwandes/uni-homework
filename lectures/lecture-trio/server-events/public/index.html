@@ -1,0 +1,36 @@
+<html>
+  <body>
+    <h2>Server-sent events</h2>
+    <div id="server-status"></div>
+    <div id="server-sent_messages"></div>
+    <script>
+      const eventSource = new EventSource("/synchronizeTime");
+      console.log(eventSource);
+
+      eventSource.addEventListener("message", (event) => {
+        console.log(event);
+
+        const serverStatus = (document.getElementById(
+          "server-sent_messages"
+        ).innerText = event.data);
+      });
+
+      eventSource.addEventListener("open", (event) => {
+        const serverStatus = (document.getElementById(
+          "server-status"
+        ).innerText = "Connected");
+      });
+      eventSource.addEventListener("error", (event) => {
+        if (eventSource.readyState === EventSource.CLOSED) {
+          const serverStatus = (document.getElementById(
+            "server-status"
+          ).innerText = "Disconnected");
+        } else if (eventSource.readyState === EventSource.CONNECTING) {
+          const serverStatus = (document.getElementById(
+            "server-status"
+          ).innerText = "Connecting");
+        }
+      });
+    </script>
+  </body>
+</html>
