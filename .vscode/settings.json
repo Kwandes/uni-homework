@@ -1,0 +1,9 @@
+{
+    "azureFunctions.deploySubpath": "lectures/11-10-2022/azure-functions/GenericAzureFunction",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectSubpath": "lectures/11-10-2022/azure-functions/GenericAzureFunction",
+    "azureFunctions.preDeployTask": "npm prune (functions)"
+}
